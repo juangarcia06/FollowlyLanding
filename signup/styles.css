@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'Aileron';
+    src: url('../fonts/Aileron.otf') format('opentype');
+    font-weight: 500;
+  }
+  
+@font-face {
+  font-family: 'Aileron';
+  src: url('../fonts/Aileron-Light.otf') format('opentype');
+  font-weight: 400;
+}
+  
+@font-face {
+  font-family: 'Aileron';
+  src: url('../fonts/Aileron-Black.otf') format('opentype');
+  font-weight: 900;
+}
+  
+@font-face {
+  font-family: 'Aileron';
+  src: url('../fonts/Aileron-Bold.otf') format('opentype');
+  font-weight: 700;
+}
+  
+@font-face {
+    font-family: 'Aileron';
+  src: url('../fonts/Aileron-SemiBold.otf') format('opentype');
+  font-weight: 600;
+}
+  
+@font-face {
+  font-family: 'Aileron';
+    src: url('../fonts/Aileron-Heavy.otf') format('opentype');
+  font-weight: 800;
+}
+
+body {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    min-height: 100vh;
+    font-family: 'Aileron';
+  }
+  
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+  }
+
+  .content p {
+    margin: 2px;
+    font-weight: 400;
+    font-size: 12px;
+    }
+
+  .content p a {
+    text-decoration: none;
+    color:#1a73e8 ;
+    }
+  
+  .content-card {
+    width: 100%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
+    background: #fff;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+  }
+ 
+  .content .input:focus, input:valid {
+    outline: none;
+    border: 1.5px solid #1a73e8;
+  }
+   
+  .content-card .form {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 5px;
+    width: 90%;
+    border-radius: 20px;
+    cursor: pointer;
+    z-index: 10;
+    background-color: #fff;
+  }
+
+.login .form {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 24px 24px;
+    gap: 16px;
+    text-align: center;
+    font-family: 'Aileron';
+    margin: 0px;
+  }
+  
+  .login {
+    width: 100%;
+  }
+  
+  /*Form text*/
+  .login .title {
+    font-weight: 900;
+    font-size: 1.9rem;
+    letter-spacing: 1.4px;
+  }
+  
+  .login .subtitle {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #666;
+  }
+  
+  /*Inputs box*/
+  .login .form-container {
+    margin: 1rem 0 .5rem;
+  }
+  
+  .login .input {
+    background: none;
+    border: 0;
+    outline: 0;
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    font-size: .9rem;
+    padding: 8px;
+    border-radius: 8px;
+  }
+  
+  .login .form-section {
+    padding: 16px 0px;
+    margin: 0px;
+    font-size: 0.85rem;
+    background-color: #e0ecfb;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100%;
+    box-shadow: rgb(0 0 0 / 8%) 0 -1px;
+  }
+  
+  .login .form-section p {
+    margin: 0px 16px;
+  }
+  
+  .login .form-section a {
+    font-weight: bold;
+    color: #0066ff;
+    transition: color .3s ease;
+  }
+  
+  .login .form-section a:hover {
+    color: #005ce6;
+    text-decoration: underline;
+  }
+  
+  /*Button*/
+  .login .form button {
+    background-color: #0066ff;
+    color: #fff;
+    border: 0;
+    border-radius: 24px;
+    padding: 10px 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color .3s ease;
+  }
+  
+  .login .form button:hover {
+    background-color: #005ce6;
+  }
+
+    @media screen and (min-width: 400px) {
+    .content-card {
+        width: 90%;
+    }
+    .content {
+      padding: 50px;
+    }
+    }
+    
+    @media screen and (min-width: 600px) {
+      .content-card {
+          width: 60%;
+      }
+      .content .input-group .input {
+        width: 100%;
+      }
+    }
+    
+    @media screen and (min-width: 768px) {
+      .content-card {
+          width: 80%;
+      }
+    }
+    
+    @media screen and (min-width: 992px) {
+      .content-card {
+          width: 80%;
+      }
+    }
+    
+    @media screen and (min-width: 1200px) {
+      .content-card {
+          width: 30%
+      }
+    }
