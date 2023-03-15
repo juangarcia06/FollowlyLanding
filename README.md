@@ -1,2 +1,0 @@
-# FollowlyLanding
-Followly landing page
