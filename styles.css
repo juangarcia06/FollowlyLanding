@@ -47,6 +47,10 @@ nav {
     justify-items: center;
 }
 
-nav img, nav a {
-    height: 0.15em;
+nav a {
+    height: 50px;
+}
+
+nav img {
+    height: 50px;
 }
