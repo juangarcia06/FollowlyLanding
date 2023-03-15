@@ -140,6 +140,48 @@ h1 {
   justify-content: center;
 }
 
+.logoslider {
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.logoslider::before,
+.logoslider::after {
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+
+.logoslider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+
+.logoslider::before {
+  left: 0;
+  top: 0;
+}
+
+.logoslider .logoslide-track {
+  -webkit-animation: scroll 40s linear infinite;
+  animation: scroll 40s linear infinite;
+  -moz-animation: scroll 40s linear infinite;
+  -o-animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(250px * 10);
+}
+
+.logoslider .logoslide {
+  height: 100px;
+  width: 250px;
+}
+
 main {
     position: relative;
 }
@@ -154,4 +196,40 @@ footer p {
   color: white;
   font-size: 18px;
   font-weight: 400;
+}
+
+@-webkit-keyframes scroll {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(calc(-250px * 5));
+  }
+}
+
+@-o-keyframes scroll {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(calc(-250px * 5));
+  }
+}
+
+@-moz-keyframes scroll {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(calc(-250px * 5));
+  }
+}
+
+@keyframes scroll {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(calc(-250px * 5));
+  }
 }
