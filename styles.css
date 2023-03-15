@@ -44,3 +44,7 @@ nav {
     height: 0.2em;
     flex-flow: row wrap;
 }
+
+nav img, nav a {
+    height: 0.15em;
+}
