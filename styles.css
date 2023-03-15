@@ -49,8 +49,10 @@ nav {
 
 nav a {
     height: 50px;
+    padding: 10px;
 }
 
 nav img {
     height: 50px;
+    padding: 10px;
 }
