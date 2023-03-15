@@ -36,6 +36,7 @@
 
 body {
     font-family: 'Aileron';
+    margin: 0px;
 }
 
 nav {
@@ -54,4 +55,13 @@ nav a {
 
 nav img {
     height: 50px;
+}
+
+main {
+    position: relative;
+}
+
+section {
+    margin: 10px;
+    padding: 10px;
 }
