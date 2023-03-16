@@ -238,4 +238,28 @@ footer p {
   .leftmenu .logotext {
     display: none;
   }
+  .leftmenu {
+    margin-left: 2px;
+  }
+  .rightmenu {
+    margin-right: 2px;
+  }
+  .signup {
+    width: 50px;
+    font-size: 16px;
+  }
+  .smallogo {
+    padding: 8px;
+  }
+  .login {
+    padding: 12px;
+    margin-top: 8px;
+  }
+  .hero .main {
+    padding: 5px 12.5px;
+  }
+  h1 {
+    margin: 8px;
+    font-size: 48px;
+  }
 }
