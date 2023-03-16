@@ -169,12 +169,12 @@ h1 {
 }
 
 .logoslider .logoslide-track {
-  -webkit-animation: scroll 40s linear infinite;
-  animation: scroll 40s linear infinite;
-  -moz-animation: scroll 40s linear infinite;
-  -o-animation: scroll 40s linear infinite;
+  -webkit-animation: scroll 26s linear infinite;
+  animation: scroll 26s linear infinite;
+  -moz-animation: scroll 26s linear infinite;
+  -o-animation: scroll 26s linear infinite;
   display: flex;
-  width: calc(250px * 10);
+  width: calc(250px * 6);
 }
 
 .logoslider .logoslide {
@@ -203,7 +203,7 @@ footer p {
       transform: translateX(0);
   }
   100% {
-      transform: translateX(calc(-250px * 10));
+      transform: translateX(calc(-250px * 6));
   }
 }
 
@@ -212,7 +212,7 @@ footer p {
       transform: translateX(0);
   }
   100% {
-      transform: translateX(calc(-250px * 10));
+      transform: translateX(calc(-250px * 6));
   }
 }
 
@@ -221,7 +221,7 @@ footer p {
       transform: translateX(0);
   }
   100% {
-      transform: translateX(calc(-250px * 10));
+      transform: translateX(calc(-250px * 6));
   }
 }
 
@@ -230,6 +230,12 @@ footer p {
       transform: translateX(0);
   }
   100% {
-      transform: translateX(calc(-250px * 10));
+      transform: translateX(calc(-250px * 6));
+  }
+}
+
+@media only screen and (max: 900px) {
+  .leftmenu a {
+    display: none;
   }
 }
