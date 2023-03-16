@@ -234,8 +234,8 @@ footer p {
   }
 }
 
-@media only screen and (max: 900px) {
-  .leftmenu a {
+@media only screen and (max-width: 800px) {
+  .leftmenu .logotext {
     display: none;
   }
 }
