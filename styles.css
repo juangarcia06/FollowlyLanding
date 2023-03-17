@@ -188,12 +188,21 @@ main {
 
 footer {
   display: flex;
+  justify-items: center;
   justify-content: center;
   flex-flow: column wrap;
   background-color: black;
 }
 
-footer p, footer a {
+.footer {
+  text-align: center;
+}
+
+footer br {
+  background-color: black;
+}
+
+.footer p, .footer a {
   color: white;
   font-size: 18px;
   text-decoration: none;
