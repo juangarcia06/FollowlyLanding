@@ -40,6 +40,7 @@ body {
 }
 
 footer a {
+  margin: 10px;
   text-decoration: none;
   color: white;
 }
