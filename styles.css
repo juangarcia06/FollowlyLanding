@@ -39,12 +39,6 @@ body {
     margin: 0px;
 }
 
-footer a {
-  margin: 10px;
-  text-decoration: none;
-  color: white;
-}
-
 nav {
   position: sticky;
   top: 0px;
@@ -195,12 +189,14 @@ main {
 footer {
   display: flex;
   justify-content: center;
+  flex-flow: column wrap;
   background-color: black;
 }
 
-footer p {
+footer p, footer a {
   color: white;
   font-size: 18px;
+  text-decoration: none;
   font-weight: 400;
 }
 
