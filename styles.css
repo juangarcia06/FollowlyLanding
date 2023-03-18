@@ -59,22 +59,30 @@ nav {
 .herobg .ig3d {
   position: absolute;
   width: 25%;
-  top: 3em;
+  top: 5em;
   left: 1%;
-}
-
-.herobg .yt3d {
-  position: absolute;
-  width: 25%;
-  top: 3em;
-  left: 22%;
 }
 
 .herobg .tt3d {
   position: absolute;
-  width: 22%;
-  top: 3em;
-  right: 3rem;
+  width: 25%;
+  top: 5em;
+  left: 22%;
+}
+
+.herobg .ldn3d {
+  position: absolute;
+  width: 28%;
+  top: 4rem;
+  right: 20%;
+}
+
+
+.herobg .spotify3d {
+  position: absolute;
+  width: 23%;
+  top: 6.8rem;
+  right: 2rem;
 }
 
 .hero .main {
@@ -173,47 +181,6 @@ h1 {
   justify-content: center;
 }
 
-.logoslider {
-  height: 100px;
-  margin: auto;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-}
-
-.logoslider::before,
-.logoslider::after {
-  content: "";
-  height: 100px;
-  position: absolute;
-  width: 200px;
-}
-
-.logoslider::after {
-  right: 0;
-  top: 0;
-  transform: rotateZ(180deg);
-}
-
-.logoslider::before {
-  left: 0;
-  top: 0;
-}
-
-.logoslider .logoslide-track {
-  -webkit-animation: scroll 26s linear infinite;
-  animation: scroll 26s linear infinite;
-  -moz-animation: scroll 26s linear infinite;
-  -o-animation: scroll 26s linear infinite;
-  display: flex;
-  width: calc(250px * 6);
-}
-
-.logoslider .logoslide {
-  height: 100px;
-  width: 250px;
-}
-
 main {
     position: relative;
 }
@@ -239,42 +206,6 @@ footer br {
   font-size: 18px;
   text-decoration: none;
   font-weight: 400;
-}
-
-@-webkit-keyframes scroll {
-  0% {
-      transform: translateX(0);
-  }
-  100% {
-      transform: translateX(calc(-250px * 6));
-  }
-}
-
-@-o-keyframes scroll {
-  0% {
-      transform: translateX(0);
-  }
-  100% {
-      transform: translateX(calc(-250px * 6));
-  }
-}
-
-@-moz-keyframes scroll {
-  0% {
-      transform: translateX(0);
-  }
-  100% {
-      transform: translateX(calc(-250px * 6));
-  }
-}
-
-@keyframes scroll {
-  0% {
-      transform: translateX(0);
-  }
-  100% {
-      transform: translateX(calc(-250px * 6));
-  }
 }
 
 @media only screen and (max-width: 800px) {
@@ -305,4 +236,44 @@ footer br {
     margin: 8px;
     font-size: 48px;
   }
+}
+
+@media only screen and (max-width: 500px) {
+  .herobg .ig3d {
+    width: 33%;
+    top: 8em;
+    left: -0.2rem;
+  }
+  .herobg .tt3d {
+    display: none;
+  }
+  .herobg .ldn3d {
+    display: none;
+  }
+  .herobg .spotify3d {
+    width: 30%;
+    top: 8.8em;
+    right: -0.1rem;
+  }
+
+}
+
+@media only screen and (min-width: 501px) and (max-width: 1000px) {
+  .herobg .ig3d {
+    width: 43%;
+    top: 10em;
+    left: 1%;
+  }
+  .herobg .tt3d {
+    display: none;
+  }
+  .herobg .ldn3d {
+    display: none;
+  }
+  .herobg .spotify3d {
+    width: 40%;
+    top: 11.8rem;
+    right: 2rem;
+  }
+
 }
