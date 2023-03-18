@@ -54,23 +54,44 @@ nav {
 
 .herobg {
   position: relative;
-  z-index: 0;
 }
 
 .herobg .ig3d {
   position: absolute;
-  z-index: -1;
-  left: 20;
+  width: 25%;
+  top: 3em;
+  left: 1%;
+}
+
+.herobg .yt3d {
+  position: absolute;
+  width: 25%;
+  top: 3em;
+  left: 22%;
+}
+
+.herobg .tt3d {
+  position: absolute;
+  width: 22%;
+  top: 3em;
+  right: 3rem;
 }
 
 .hero .main {
+  position: relative;
   margin: 20px 50px;
   text-align: center;
 }
 
+.hero strong {
+  position: relative;
+  width: auto;
+  backdrop-filter: blur(5px);
+}
+
 h1 {
   font-size: 64px;
-  z-index: 2;
+  position: relative;
   margin: 16px;
   line-height: 1.0625;
   font-weight: 600;
@@ -78,7 +99,6 @@ h1 {
 }
 
 .hero h3 {
-  z-index: 2;
   font-size: 18px;
   font-weight: 500;
   margin-left: calc(10% + 15px);
@@ -167,7 +187,6 @@ h1 {
   height: 100px;
   position: absolute;
   width: 200px;
-  z-index: 2;
 }
 
 .logoslider::after {
