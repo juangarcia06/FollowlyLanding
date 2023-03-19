@@ -266,6 +266,10 @@ footer br {
   .hero .blur {
     backdrop-filter: none; display: inline-block; border-radius: 10px; padding: 4px;
   }
+
+  .hero {
+    padding-bottom: 32px;
+  }
 }
 
 @media only screen and (min-width: 501px) and (max-width: 1000px) {
@@ -284,6 +288,9 @@ footer br {
     width: 40%;
     top: 11.8rem;
     right: 2rem;
+  }
+  .hero {
+    padding-bottom: 32px;
   }
 
 }
