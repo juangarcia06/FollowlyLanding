@@ -260,7 +260,7 @@ footer br {
     right: -0.6rem;
   }
   .hero .blur {
-    backdrop-filter: blur(1px); display: inline-block; border-radius: 10px; padding: 4px;
+    backdrop-filter: none; display: inline-block; border-radius: 10px; padding: 4px;
   }
 }
 
