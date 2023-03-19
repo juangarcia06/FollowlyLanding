@@ -34,6 +34,10 @@
   font-weight: 800;
 }
 
+.hero .blur {
+  backdrop-filter: blur(2px); display: inline-block; border-radius: 10px; padding: 4px;
+}
+
 body {
     font-family: 'Aileron';
     margin: 0px;
@@ -48,7 +52,7 @@ nav {
 }
 
 .hero {
-  min-height: 20vh;
+  min-height: 75vh;
   text-align: center;
 }
 
@@ -59,21 +63,21 @@ nav {
 .herobg .ig3d {
   position: absolute;
   width: 25%;
-  top: 5em;
+  top: 11em;
   left: 1%;
 }
 
 .herobg .tt3d {
   position: absolute;
   width: 25%;
-  top: 5em;
+  top: 12em;
   left: 22%;
 }
 
 .herobg .ldn3d {
   position: absolute;
   width: 28%;
-  top: 4rem;
+  top: 11.3rem;
   right: 20%;
 }
 
@@ -81,7 +85,7 @@ nav {
 .herobg .spotify3d {
   position: absolute;
   width: 23%;
-  top: 6.8rem;
+  top: 12.8rem;
   right: 2rem;
 }
 
@@ -255,7 +259,9 @@ footer br {
     top: 8.8em;
     right: -0.6rem;
   }
-
+  .hero .blur {
+    backdrop-filter: blur(1px); display: inline-block; border-radius: 10px; padding: 4px;
+  }
 }
 
 @media only screen and (min-width: 501px) and (max-width: 1000px) {
