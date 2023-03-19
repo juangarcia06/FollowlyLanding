@@ -43,4 +43,7 @@
         width: 100%;
         float: left;
     }
+    .faq .item .img {
+        margin-top: 16px;
+    }
 }
