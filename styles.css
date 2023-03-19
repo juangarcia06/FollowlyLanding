@@ -240,6 +240,10 @@ footer br {
     margin: 8px;
     font-size: 48px;
   }
+
+  .hero {
+    padding-bottom: 32px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
