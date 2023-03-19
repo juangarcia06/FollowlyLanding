@@ -27,6 +27,7 @@
 .faq .item h3 {
     font-size: 24px;
     margin: 16px;
+    margin-top: 4px;
     margin-bottom: 4px;
     display: inline-block;
 }
@@ -34,12 +35,14 @@
 .faq .item p {
     margin: 16px;
     margin-top: 4px;
+    margin-bottom: 24px;
     display: inline-block;
     font-size: 14px;
 }
 
-.faq .item .img {
+.benefits .img {
     margin-top: 8px;
+    margin-bottom: 4px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -47,7 +50,7 @@
         width: 100%;
         float: left;
     }
-    .faq .item .img {
+    .benefits .img {
         margin-top: 16px;
     }
 }
