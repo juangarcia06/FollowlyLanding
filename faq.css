@@ -38,6 +38,10 @@
     font-size: 14px;
 }
 
+.faq .item .img {
+    margin-top: 8px;
+}
+
 @media only screen and (max-width: 600px) {
     .faq .item {
         width: 100%;
