@@ -19,21 +19,27 @@
 }
 
 .faq .item {
-    width: 30%;
+    width: 33.33333%;
     text-align: center;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
 }
 
 .faq .item h3 {
     font-size: 24px;
-    width: 30%;display: inline-block;
+    margin: 16px;
+    margin-bottom: 4px;
+    display: inline-block;
 }
 
 .faq .item p {
+    margin: 16px;
+    margin-top: 4px;
     display: inline-block;
     font-size: 14px;
-    width: 30%;
+}
+
+@media only screen and (max-width: 600px) {
+    .faq .item {
+        width: 100%;
+        float: left;
+    }
 }
