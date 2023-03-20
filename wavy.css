@@ -40,7 +40,7 @@
 
 .wavecontent {
   position:relative;
-  height:20vh;
+  height:4vh;
   text-align:center;
   background-color: white;
 }
@@ -81,7 +81,7 @@
     min-height:40px;
   }
   .wavecontent {
-    height:30vh;
+    height:3vh;
   }
   .waveh1 {
     font-size:24px;
