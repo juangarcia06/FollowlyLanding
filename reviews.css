@@ -1,6 +1,6 @@
 .reviews {
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: space-around;
     margin-bottom: 24px;
 }
@@ -42,12 +42,13 @@
     justify-content: center;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
     .reviews {
-        flex-direction: column;
+        justify-content: center;
     }
     .revcard {
-        width: 95%;
+        width: 90%;
+        margin-bottom: 8px;
         float: left;
     }
 }
