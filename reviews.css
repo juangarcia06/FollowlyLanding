@@ -42,9 +42,12 @@
     justify-content: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
+    .reviews {
+        flex-direction: column;
+    }
     .revcard {
-        width: 100%;
+        width: 95%;
         float: left;
     }
 }
