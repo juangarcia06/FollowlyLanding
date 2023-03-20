@@ -1,0 +1,50 @@
+.reviews {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 24px;
+}
+
+.revcard {
+    width: 28%;
+    color: black;
+    padding: 1%;
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+}
+
+.revcard h3 {
+    margin-left: 50px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.revcard p {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.revatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center center;
+    background-color: #eee;
+    transform: translateY(10px);
+}
+
+.revhead {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .revcard {
+        width: 100%;
+        float: left;
+    }
+}

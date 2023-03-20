@@ -17,10 +17,10 @@
 }
 
 .inner-waveheader {
-  height:65vh;
   width:100%;
   margin: 0;
-  padding: 0;
+  padding: 16px;
+  padding-top: 64px;
 }
 
 .waveflex { /*Flexbox for containers*/
