@@ -189,20 +189,21 @@ main {
     position: relative;
 }
 
-footer {
+.footer {
   display: flex;
   justify-items: center;
   justify-content: center;
   flex-flow: column wrap;
-  background-color: black;
-}
-
-.footer {
   text-align: center;
+  background-color: #11c5ff;
 }
 
-footer br {
-  background-color: black;
+footer {
+  background-color: #11c5ff;
+}
+
+footer svg {
+  background-color: white;
 }
 
 .footer p, .footer a {
