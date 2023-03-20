@@ -38,6 +38,14 @@
   backdrop-filter: blur(2px); display: inline-block; border-radius: 10px; padding: 4px;
 }
 
+.js-only {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
 body {
     font-family: 'Aileron';
     margin: 0px;
